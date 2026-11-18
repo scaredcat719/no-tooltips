@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "no-tooltips",
+	"version": "${version}",
+	"name": "No-tooltips",
+	"description": "Hides the held item tooltip",
+	"authors": [
+		"Miami"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/no-tool-tips"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/no-tooltips/icon.png",
+	"environment": "client",
+	"entrypoints": {},
+	"mixins": [
+		"no-tooltips.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "1.21.x",
+		"java": ">=21"
+	}
+}
